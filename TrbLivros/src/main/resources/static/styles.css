@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body {
+    background-color: #4a9ae9;
+    font-family: 'Kalam';
+    color: #ffff;
+}
+
+.text {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#cadastroForm, #pesquisaForm {
+    width: 500px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    height: 25px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+/*botão*/
+
+.button-33 {
+    background-color: #113243;
+    border-radius: 100px;
+    box-shadow: rgba(65, 20, 246, 0.2) 0 -25px 18px -14px inset, rgba(22, 8, 217, 0.15) 0 1px 2px, rgba(40, 12, 221, 0.15) 0 2px 4px, rgba(57, 10, 230, 0.15) 0 4px 8px, rgba(47, 11, 230, 0.15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: #ffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-33:hover {
+    box-shadow: rgba(15, 8, 232, 0.35) 0 -25px 18px -14px inset, rgba(25, 11, 218, 0.25) 0 1px 2px, rgba(23, 9, 228, 0.25) 0 2px 4px, rgba(54, 8, 236, 0.25) 0 4px 8px, rgba(31, 9, 226, 0.25) 0 8px 16px, rgba(34, 11, 239, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
