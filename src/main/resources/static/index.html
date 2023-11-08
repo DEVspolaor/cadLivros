@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Livros</title>
+</head>
+
+<body>
+    <div class="text">
+        <h1>Seja bem vindo</h1>
+        <p>a biblioteca virtual</p>
+    </div>
+
+
+    <section>
+        <div id="cadastro">
+            <form id="cadastroForm">
+                <!--centralizar os itens-->
+                <h2>Cadastro de Livros</h2>
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" required>
+                <!--plataforma-->
+
+                <label for="isbn">Isbn:</label>
+                <input type="text" id="isbn" name="isbn" required>
+                <div>
+                    <button class="button-33" type="submit">Cadastrar</button>
+                <button class="button-33" type="button" onclick="atualizarLivro()">🔁Atualizar</button>
+                <button class="button-33" type="button" onclick="deletarLivro()">❌Deletar</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="pesquisa">
+            <form id="pesquisaForm">
+                <h2>Pesquisa de Livro</h2>
+                <label for="searchId">isbn do livro:</label>
+                <input type="text" id="searchId" name="searchId">
+                <button class="button-33" type="button" onclick="pesquisarLivro()">Pesquisar</button>
+            </form>
+        </div>
+    </section>
+    <div id="resultadoPesquisa"></div>
+   
+   <script src="main.js"></script>
+   
+</body>
+
+</html>
